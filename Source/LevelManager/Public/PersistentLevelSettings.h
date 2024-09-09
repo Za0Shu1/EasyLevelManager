@@ -36,7 +36,7 @@ public:
 	bool bVisibleAfterAllLevelLoad = false;
 };
 
-UCLASS(Config = Engine, DefaultConfig)
+UCLASS(Config = Game, DefaultConfig)
 class LEVELMANAGER_API UPersistentLevelSettings : public UObject
 {
 	GENERATED_BODY()
